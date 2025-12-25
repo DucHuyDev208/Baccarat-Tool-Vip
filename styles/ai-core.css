@@ -1,0 +1,10 @@
+.ai-core {
+  text-align: center;
+  margin: 16px 0;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.ai-core.wait { color: #ffd700; }
+.ai-core.banker { color: #ff3c3c; }
+.ai-core.player { color: #33b1ff; }
