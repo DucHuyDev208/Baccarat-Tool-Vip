@@ -1,0 +1,17 @@
+.ai-modules {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 8px;
+}
+
+.ai-module {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.ai-module.active {
+  border-color: #33f0ff;
+}
